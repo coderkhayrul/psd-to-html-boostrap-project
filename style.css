@@ -1,0 +1,78 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md. Majidul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	margin: 0;
+	text-decoration: none;
+}
+p{
+	color: #848789;
+	line-height: 30px;
+}
+
+body{
+	margin:0; 
+	padding: 0;
+}
+.bg-main{
+	background-color: red;
+}
+.text-main{
+	color: red;
+}
+img{
+	width: 100%;
+}
+/************ Header Area ************/
+.main-nav{
+	background-color: rgba(0, 0, 0, 0.616);
+}
+.banner{
+	background-image: url('./images/head.png');
+	background-size: cover;
+	height: 100vh;
+}
+/************** 2. Header Area ************************/
+
+/***************** About Area ************************/
+.hr{
+	height: 3px;
+}
+.about .head-title h4::after{
+	content: "";
+	display: block;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+
+}
+/***************** About Area ************************/
