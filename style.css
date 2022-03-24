@@ -66,13 +66,6 @@ img{
 /***************** About Area ************************/
 .hr{
 	height: 3px;
-}
-.about .head-title h4::after{
-	content: "";
-	display: block;
-	height: 5px;
-	width: 5px;
-	border-radius: 50%;
-
+	align-items: center;
 }
 /***************** About Area ************************/
